@@ -19,6 +19,7 @@ app.use('/api/application', require('./routes/application'));
 app.use('/api/bookmark', require('./routes/bookmark'));
 app.use('/api/feedback', require('./routes/feedback'));
 app.use('/api/search', require('./routes/search'));
+app.use('/api/filter', require('./routes/filter')); 
 
 const PORT = process.env.PORT || 5000;
 
